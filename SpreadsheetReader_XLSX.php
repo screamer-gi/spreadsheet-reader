@@ -607,6 +607,7 @@
 		 */
 		private function FormatValue($Value, $Index)
 		{
+			return $Value;
 			if (!is_numeric($Value))
 			{
 				return $Value;
